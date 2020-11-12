@@ -22,7 +22,7 @@ define('RSS_CACHE_FILE', PRIVATE_FOLDER.'/rss_cache.xml');
 
 // load settings from file
 if (file_exists(SETTINGS_FILE)) {
-	$settings = json_decode(file_get_contents(SETTINGS_FILE));
+	$settings = json_decode(trim(file_get_contents(SETTINGS_FILE), "\xEF\xBB\xBF"));
 
 	define('TITLE', $settings->title);
 	define('YEAR', $settings->year);
