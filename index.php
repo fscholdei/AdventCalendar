@@ -156,8 +156,8 @@ abstract class I18n {
 	static $translations = [
 		'day-d' => [ 'en' => 'Day {arg}', 'fr' => 'Jour {arg}', 'de' => 'Tag {arg}' ],
 		'day' => [ 'en' => 'day', 'fr' => 'jour', 'de' => 'Tag' ],
-		'previous-link-title' => [ 'en' => 'yesterday', 'fr' => 'hier', 'de' => 'gestern' ],
-		'next-link-title' => [ 'en' => 'tomorrow', 'fr' => 'demain', 'de' => 'morgen' ],
+		'previous-link-title' => [ 'en' => 'previous', 'fr' => 'hier', 'de' => 'vorherig' ],
+		'next-link-title' => [ 'en' => 'next', 'fr' => 'demain', 'de' => 'kommend' ],
 		'be-patient-title' => [ 'en' => 'Be patient!', 'fr' => 'Patience !', 'de' => 'Hab Geduld!' ],
 		'be-patient-panel-title' => [
 			'en' => 'Day {arg} is coming soon!',
